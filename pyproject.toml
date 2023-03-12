@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "2600-pages-of-anti-trans-hate"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "WTFPLv2"
+readme = "README"
+packages = [{include = "parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-slugify = "^8.0.1"
+python-dateutil = "^2.8.2"
+
+[tool.poetry.scripts]
+parser = 'parser:cli'
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
