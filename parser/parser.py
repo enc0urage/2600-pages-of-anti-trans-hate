@@ -42,6 +42,12 @@ def convert_html(fileinfo, output_directory):
 <head>
 <meta charset="utf-8">
 <title>{escape(subject)}</title>
+<style type="text/css">
+pre {{
+  white-space: pre-wrap;
+  word-break: keep-all;
+}}
+</style>
 </head>
 <body>
 <pre>
