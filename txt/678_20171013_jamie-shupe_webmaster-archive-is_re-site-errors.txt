@@ -13,20 +13,11 @@ Bcc:
 
 Subject: Re: Site Errors
 Right now my IP is "Verizon Wireless (70.211.17.142)", but it's an impossible situation for me because I use cellular data as my only Internet source. And my IP changes every time I unplug
-Right now my IP is "Verizon Wireless (70.211.17.142)", but it's an impossible situation for me because I use cellular data as my only Internet source. And my IP changes every time I unplug
-and plug my phone in.
 and plug my phone in.
 I live in an RV, and move frequently, so I use cellular by necessity. But I would think it would be okay to whitelist Verizon wireless ranges, wouldn't it? Isn't it unlikely that cellular is going to be
-I live in an RV, and move frequently, so I use cellular by necessity. But I would think it would be okay to whitelist Verizon wireless ranges, wouldn't it? Isn't it unlikely that cellular is going to be
-used to attack because it's metered?
 used to attack because it's metered?
 It's expensive, I spend $220 a month with Verizon for their crap. Ugh.
-It's expensive, I spend $220 a month with Verizon for their crap. Ugh.
-Thanks.
 Thanks.
 Jamie
-Jamie
-
-
 
 
