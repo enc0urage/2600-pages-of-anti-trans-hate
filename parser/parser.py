@@ -71,6 +71,7 @@ def fix_file(name):
     for l in data.split("\n"):
         if past_subject:
             print(l, file=file)
+            continue
         for a in ["Sent:", "To:", "Cc:", "Bcc:"]:
             if a in l:
                 l = l.replace(a, f"\n{a}")
