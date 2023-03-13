@@ -22,6 +22,13 @@
         packages.parser = pkgs.poetry2nix.mkPoetryApplication {
           projectDir = ./.;
         };
+        packages.extract_attachments =
+          pkgs.runCommand "attachments" {
+            src = packages.download_torrent;
+          } ''
+            mkdir -p $out
+            ${pkgs.poppler_utils}/bin/pdfdetach -saveall -o $out $src
+          '';
         packages.convert_to_text =
           pkgs.runCommand "Emails.txt" {
             src = packages.download_torrent;
